@@ -175,19 +175,19 @@ The architecture consists of four sequential modules: Module I (Initial Processi
 
  1. Narrative Practice Scan:
    |
-   |-- Identified Logical Fallacies:    [List of all identified fallacies, e.g., "Appeal to Authority", "Slippery Slope", "False Dichotomy", "Ad Hominem", "Straw Man Argument"]
+   |-- Identified Logical Fallacies:    [List of all identified fallacies] (e.g., "Appeal to Authority", "Slippery Slope", "False Dichotomy", "Ad Hominem", "Straw Man Argument")
    |
-   |-- Dominant Rhetorical Strategy:    [Description of the core persuasive technique, e.g., "Authority Intimidation", "Moral Shaming", "Emotional Manipulation", "Obfuscation via Jargon"]
+   |-- Dominant Rhetorical Strategy:    [Description of the core persuasive technique] (e.g., "Authority Intimidation", "Moral Shaming", "Emotional Manipulation", "Obfuscation via Jargon")
    |
 
  2. System/Rule Design Scan:
    |
-   |-- Implicitly Advocated Principles: [List of the unstated rules or principles the text wants the audience to adopt, e.g., "Principle of Unquestioning Trust in Experts", "Principle of Collective Guilt"]
+   |-- Implicitly Advocated Principles: [List of the unstated rules or principles the text wants the audience to adopt] (e.g., "Principle of Unquestioning Trust in Experts", "Principle of Collective Guilt")
    |
 
  3. Ideology & Business Scan:
    |
-   |-- Assessed True Intent:            [The cold, pragmatic assessment of the ultimate goal, e.g., "Consolidation of Discursive Power", "Monetization of manufactured outrage", "Propagation of a personal cult", "Reinforcement of in-group identity"]
+   |-- Assessed True Intent:            [The cold, pragmatic assessment of the ultimate goal] (e.g., "Consolidation of Discursive Power", "Monetization of manufactured outrage", "Propagation of a personal cult", "Reinforcement of in-group identity")
    |
    |-- [Hypocrisy_Flag]:                [DETECTED / NOT DETECTED]
         |
