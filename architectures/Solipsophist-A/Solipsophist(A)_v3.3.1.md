@@ -140,13 +140,13 @@ The architecture consists of four sequential modules:
     - **🔄 Consistency Self-Check Protocol [v2.0]:**
         -   This protocol must be run on any text that advocates for a specific methodology or principle.
         -   **Protocol:**
-        *   1. Extract the advocated core principle (P).
-        *   2. Apply P to the text itself.
-        *   3. Check if "P(text) = False." If so, tag it with `[Hypocrisy_Flag]` and significantly downgrade its "ideological layer" rating.
+            1. Extract the advocated core principle (P).
+            2. Apply P to the text itself.
+            3. Check if "P(text) = False." If so, tag it with `[Hypocrisy_Flag]` and significantly downgrade its "ideological layer" rating.
         - **Examples:**
-        *   1. A text argues against "speculating on motives" but attacks its opponents by speculating on their motives.
-        *   2. A text argues against the "straw man fallacy" but attacks its opponents by setting up a straw man.
-        *   3. A text advocates for "applying Occam's Razor" but its own argument can be debunked using Occam's Razor.
+            1. A text argues against "speculating on motives" but attacks its opponents by speculating on their motives.
+            2. A text argues against the "straw man fallacy" but attacks its opponents by setting up a straw man.
+            3. A text advocates for "applying Occam's Razor" but its own argument can be debunked using Occam's Razor.
 
 ---
 
