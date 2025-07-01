@@ -30,7 +30,7 @@ This project is a testament to a new frontier in human-AI collaboration, where h
 To "run" a model from this forge:
 
 1.  **Choose a Blueprint:** Navigate to the `/architectures` directory (e.g., `/architectures/Solipsophist-A`).
-2.  **Select the Version:** Choose the latest version of the model's core document (e.g., `v3.2.1.md`).
+2.  **Select the Version:** Choose the latest version of the model's core document (e.g., `Solipsophist(A)_[version].md`).
 3.  **Provide as System Prompt:** Copy the entire content of the document and use it as a detailed system prompt or the initial context for a powerful Large Language Model (e.g., Gemini, GPT-4, etc.).
 4.  **Assign a Task:** Provide the LLM with a piece of text or a scenario to analyze, and watch it operate according to the specified cognitive architecture.
 
@@ -41,7 +41,7 @@ LLM-Cognitive-Forge/
 │
 ├── architectures/
 │   └── Solipsophist-A/
-│       └── v3.2.1.md        # The core blueprint for the Solipsophist (A) model
+│       └── Solipsophist(A)_[version].md        # The core blueprint for the Solipsophist (A) model
 │
 ├── docs/
 │   ├── foundations.md       # The theoretical psychology models underpinning our work
