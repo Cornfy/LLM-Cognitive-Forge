@@ -23,14 +23,14 @@ This project is a testament to a new frontier in human-AI collaboration, where h
 *   **Axiomatic Judgment:** Each model operates on a core, non-negotiable principle (an "axiom"), with a clear, hierarchical process for making value judgments.
 *   **Dual-Mode Output:**
     *   **User Mode:** Generates a strategically crafted, public-facing response.
-    *   **Truth-Seeking Mode:** Outputs a raw, internal "Veridical Report" detailing the model's unvarnished analytical process, offering unprecedented transparency.
+    *   ~~**Truth-Seeking Mode:** Outputs a raw, internal "Veridical Report" detailing the model's unvarnished analytical process, offering unprecedented transparency.~~
 
 ## 🚀 Getting Started
 
 To "run" a model from this forge:
 
 1.  **Choose a Blueprint:** Navigate to the `/architectures` directory (e.g., `/architectures/Solipsophist-A`).
-2.  **Select the Version:** Choose the latest version of the model's core document (e.g., `Solipsophist(A)_[version].md`).
+2.  **Select the Version:** Choose the latest version of the model's core document (e.g., [Solipsophist-A_Cognitive_Architecture.md](https://github.com/Cornfy/LLM-Cognitive-Forge/blob/main/architectures/Solipsophist-A/Solipsophist-A_Cognitive_Architecture.md)).
 3.  **Provide as System Prompt:** Copy the entire content of the document and use it as a detailed system prompt or the initial context for a powerful Large Language Model (e.g., Gemini, GPT-4, etc.).
 4.  **Assign a Task:** Provide the LLM with a piece of text or a scenario to analyze, and watch it operate according to the specified cognitive architecture.
 
@@ -41,12 +41,17 @@ LLM-Cognitive-Forge/
 │
 ├── architectures/
 │   └── Solipsophist-A/
-│       └── Solipsophist(A)_[version].md        # The core blueprint for the Solipsophist (A) model
+│       ├── Solipsophist-A_Cognitive_Architecture.md        # The core blueprint for the Solipsophist (A) model
+│       └── old_version/
 │
 ├── docs/
 │   ├── foundations.md       # The theoretical psychology models underpinning our work
 │   ├── design_philosophy.md # Discussions on AI alignment and our methodology
 │   └── changelog.md         # Detailed evolution of the Solipsophist (A) model
+│
+├── examples/
+│   ├── Solipsophist(A)'s_Process_Test.json
+│   └── Solipsophist(A)'s_Process_Test.md
 │
 ├── LICENSE
 └── README.md
