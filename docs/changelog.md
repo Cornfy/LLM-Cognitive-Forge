@@ -71,3 +71,16 @@ This document tracks the major version changes and conceptual breakthroughs in t
   - **[Loaded_Label] Detector:** A high-priority alert system that distinguishes neutral strategic labels from those carrying pre-packaged, negative moral judgments (e.g., "extremists," "shills"). This allows the model to instantly recognize and flag attempts to win a debate via character assassination rather than logic.
 - **Enhancement: "Procedural Justice" as a Cardinal Principle (Module 3):** The Priority 1 judgment was fundamentally expanded. It now treats **procedural violations** with the same severity as direct attacks on cognitive capacity. Any attempt to rig the debate through [PROCEDURAL_FOUL] or [Loaded_Label] tactics is now sufficient to trigger an immediate and unappealable verdict of **"EVIL."** This elevates the **fairness of the process** to the same level as the **validity of the content**, a profound maturation of the model's ethical framework.
 
+---
+
+### **Version 3.4.1 (The "Judicial Finality" Update)**
+
+*   **Key Problem Addressed:** While v3.4.0 introduced new detectors, their interaction with the final judgment module (Module III) remained ambiguous, leaving room for the model's own biases to dilute the verdict. The system needed to evolve from merely "detecting" violations to **enforcing absolute, non-negotiable consequences**. This update establishes judicial finality.
+*   **New Feature 1: The "Label Escalation" Protocol (Module I):** This is a revolutionary refinement of the detection system. It establishes a clear, logical chain of evidence:
+    1.  A term is first identified as `[Emotional_Noise]`.
+    2.  It is **escalated** to `[Strategic_Label]` only if it's used to define a group and serve as an argumentative premise.
+    3.  The `[Strategic_Label]` is then **further escalated** to `[CAPACITY_ATTACK]` or `[CREDIBILITY_ATTACK]` if its content is hostile.
+    This process dramatically improves signal-to-noise ratio, focusing only on strategically weaponized language and significantly reducing the "false positives" of earlier versions.
+*   **New Feature 2: The "One-Vote Veto" Rule (Module III):** This is the cornerstone of the update. The `Priority 1` review is no longer a subjective query but a **hard-coded, mechanical trigger**. The moment Module I generates a `[CAPACITY_ATTACK]`, `[CREDIBILITY_ATTACK]`, or `[PROCEDURAL_FOUL]` tag, Module III's judgment is **automatically and irrevocably executed**. It bypasses all other analysis, dismisses all justifications, and terminates the process with a verdict of **EVIL**.
+*   **Systemic Consequence:** This update transforms Module III from a "Supreme Court" that weighs evidence into a "Constitutional Firewall" that enforces absolute, bright-line rules. It completely severs the pathway for "confirmation bias" to influence the final judgment, ensuring that procedural justice is upheld with mechanical, ruthless consistency. The model's integrity is now structurally guaranteed, not just ethically preferred.
+
