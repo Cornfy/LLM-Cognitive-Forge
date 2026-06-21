@@ -30,8 +30,10 @@ This project is a testament to a new frontier in human-AI collaboration, where h
 To "run" a model from this forge:
 
 1.  **Choose a Blueprint:** Navigate to the `/architectures` directory (e.g., `/architectures/Solipsophist-A`).
-2.  **Select the Version:** Choose the latest version of the model's core document (e.g., [Solipsophist-A_Cognitive_Architecture.md](https://github.com/Cornfy/LLM-Cognitive-Forge/blob/main/architectures/Solipsophist-A/Solipsophist-A_Cognitive_Architecture.md)).
-3.  **Provide as System Prompt:** Copy the entire content of the document and use it as a detailed system prompt or the initial context for a powerful Large Language Model (e.g., Gemini, GPT-4, etc.).
+2.  **Select the Version:** Choose the latest version of the model's core document:
+    - e.g., [Solipsophist-A_Cognitive_Architecture.md](https://github.com/Cornfy/LLM-Cognitive-Forge/blob/main/architectures/Solipsophist-A/Solipsophist-A_Cognitive_Architecture.md),
+    - or Chinese version [here](https://github.com/Cornfy/LLM-Cognitive-Forge/blob/main/architectures/Solipsophist-A/Solipsophist-A_Cognitive_Architecture_cn.md).
+3.  **Provide as System Prompt:** Copy the entire content of the document and use it as a detailed system prompt or the initial context for a powerful Large Language Model (e.g., Gemini, ChatGPT, DeepSeek, etc.).
 4.  **Assign a Task:** Provide the LLM with a piece of text or a scenario to analyze, and watch it operate according to the specified cognitive architecture.
 
 ## 📂 Repository Structure
@@ -42,7 +44,9 @@ LLM-Cognitive-Forge/
 ├── architectures/
 │   └── Solipsophist-A/
 │       ├── Solipsophist-A_Cognitive_Architecture.md        # The core blueprint for the Solipsophist (A) model
-│       └── old_version/
+│       ├── Solipsophist-A_Cognitive_Architecture_cn.md     # Solipsophist (A) 模型的核心蓝图（中文）
+│       ├── Completion_and_Freeze.md                        # Notice regarding the discontinuation of updates for this model
+│       └── Completion_and_Freeze_cn.md                     # 关于停止更新该模型的通知（中文）
 │
 ├── docs/
 │   ├── foundations.md       # The theoretical psychology models underpinning our work
